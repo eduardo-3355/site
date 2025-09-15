@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfumes de Luxo - Luxury Scents</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h1>Royal essence</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="desodorantes.html">Desodorantes</a></li>
+        <li><a href="sobre-nos.html">Sobre Nós</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="carrinho.html">Carrinho (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Perfumes Section -->
+  <section class="products">
+    <h2>Perfumes de Luxo</h2>
+    <div class="product-card">
+      <img src="perfume1.jpg" alt="Perfume Luxo 1">
+      <h3>Perfume Luxo 1</h3>
+      <p>R$ 499,00</p>
+      <button class="btn" onclick="addToCart({ name: 'Perfume Luxo 1', price: 499, image: 'perfume1.jpg' })">Comprar</button>
+    </div>
+    <div class="product-card">
+      <img src="perfume2.jpg" alt="Perfume Luxo 2">
+      <h3>Perfume Luxo 2</h3>
+      <p>R$ 399,00</p>
+      <button class="btn" onclick="addToCart({ name: 'Perfume Luxo 2', price: 399, image: 'perfume2.jpg' })">Comprar</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Luxury Scents. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
