@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desodorantes de Luxo - Luxury Scents</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h1>Royal essence</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="perfumes.html">Perfumes</a></li>
+        <li><a href="sobre-nos.html">Sobre Nós</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="carrinho.html">Carrinho (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Desodorantes Section -->
+  <section class="products">
+    <h2>Desodorantes de Luxo</h2>
+    <div class="product-card">
+      <img src="desodorante1.jpg" alt="Desodorante Luxo 1">
+      <h3>Desodorante Luxo 1</h3>
+      <p>R$ 149,00</p>
+      <button class="btn" onclick="addToCart({ name: 'Desodorante Luxo 1', price: 149, image: 'desodorante1.jpg' })">Comprar</button>
+    </div>
+    <div class="product-card">
+      <img src="desodorante2.jpg" alt="Desodorante Luxo 2">
+      <h3>Desodorante Luxo 2</h3>
+      <p>R$ 169,00</p>
+      <button class="btn" onclick="addToCart({ name: 'Desodorante Luxo 2', price: 169, image: 'desodorante2.jpg' })">Comprar</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Luxury Scents. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

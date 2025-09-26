@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfumes de Luxo - Luxury Scents</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h1>Royal Essence</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="desodorantes.html">Desodorantes</a></li>
+        <li><a href="sobre-nos.html">Sobre Nós</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="carrinho.html">Carrinho (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Perfumes Section -->
+  <section class="products">
+    <h2>Perfumes de Luxo</h2>
+    <div class="product-card">
+      <img src="image (2).jpg" alt="Supreme Majesty">
+      <h3>Supreme Majesty</h3>
+      <p>R$ 499,00</p>
+      <button class="btn" onclick="addToCart({ name: 'Supreme Majesty', price: 499, image: 'supreme-majesty.jpg' })">Comprar</button>
+    </div>
+    <div class="product-card">
+      <img src="image (3).jpg" alt="Extravagance">
+      <h3>Extravagance</h3>
+      <p>R$ 399,00</p>
+      <button class="btn" onclick="addToCart({ name: 'Extravagance', price: 399, image: 'extravagance.jpg' })">Comprar</button>
+    </div>
+    <div class="product-card">
+      <img src="image (4).jpg" alt="Ancient Wisdom">
+      <h3>Ancient Wisdom</h3>
+      <p>R$ 449,00</p>
+      <button class="btn" onclick="addToCart({ name: 'Ancient Wisdom', price: 449, image: 'ancient-wisdom.jpg' })">Comprar</button>
+    </div>
+    <div class="product-card">
+      <img src="image (5).jpg" alt="Worthiness">
+      <h3>Worthiness</h3>
+      <p>R$ 379,00</p>
+      <button class="btn" onclick="addToCart({ name: 'Worthiness', price: 379, image: 'worthiness.jpg' })">Comprar</button>
+    </div>
+    <div class="product-card">
+      <img src="image (6).jpg" alt="Splendor Grandeur">
+      <h3>Splendor Grandeur</h3>
+      <p>R$ 519,00</p>
+      <button class="btn" onclick="addToCart({ name: 'Splendor Grandeur', price: 519, image: 'splendor-grandeur.jpg' })">Comprar</button>
+    </div>
+    <div class="product-card">
+      <img src="image (7).jpg" alt="Royal Grace">
+      <h3>Royal Grace</h3>
+      <p>R$ 429,00</p>
+      <button class="btn" onclick="addToCart({ name: 'Royal Grace', price: 429, image: 'royal-grace.jpg' })">Comprar</button>
+    </div>
+    <div class="product-card">
+      <img src="eternal-elegance.jpg" alt="Eternal Elegance">
+      <h3>Eternal Elegance</h3>
+      <p>R$ 459,00</p>
+      <button class="btn" onclick="addToCart({ name: 'Eternal Elegance', price: 459, image: 'eternal-elegance.jpg' })">Comprar</button>
+    </div>
+    <div class="product-card">
+      <img src="golden-legacy.jpg" alt="Golden Legacy">
+      <h3>Golden Legacy</h3>
+      <p>R$ 389,00</p>
+      <button class="btn" onclick="addToCart({ name: 'Golden Legacy', price: 389, image: 'golden-legacy.jpg' })">Comprar</button>
+    </div>
+    <div class="product-card">
+      <img src="velvet-touch.jpg" alt="Velvet Touch">
+      <h3>Velvet Touch</h3>
+      <p>R$ 469,00</p>
+      <button class="btn" onclick="addToCart({ name: 'Velvet Touch', price: 469, image: 'velvet-touch.jpg' })">Comprar</button>
+    </div>
+    <div class="product-card">
+      <img src="imperial-scent.jpg" alt="Imperial Scent">
+      <h3>Imperial Scent</h3>
+      <p>R$ 539,00</p>
+      <button class="btn" onclick="addToCart({ name: 'Imperial Scent', price: 539, image: 'imperial-scent.jpg' })">Comprar</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Luxury Scents. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
